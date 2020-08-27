@@ -1,0 +1,117 @@
+.community main{
+    width: 100%;
+    height: calc(100% - 91.2px);
+    position: fixed;
+    top: 45.6px;
+    overflow: auto;
+    
+}
+main>.mint-navbar{
+    height: 45.6px;
+}
+.community .swipe .mint-swipe-items-wrap{
+    text-align: center;
+    padding-bottom: 48%;
+}
+#app .community .swipe .mint-swipe-indicators{
+  bottom: 47.5px;
+}
+.yw {
+    padding: 10px 3% 25px;
+    border-bottom: 5px solid #efefef;
+}
+.yw h1 img,.tz h1 img{
+    width: 25px;
+    vertical-align: middle;
+}
+.yw h1,.tz h1{
+    font-size: 16px;
+    line-height: 30px;
+}
+.yw .tiltle{
+    line-height: 30px;
+    font-size: 13px;
+}
+.tz .mint-navbar{
+    width: 40%;
+}
+.tzList{
+    padding: 0px 3%;
+}
+.tzList img{
+    width: 40px;
+}
+.tzList>div{
+    width: 100%;
+    overflow: hidden;
+    margin: 3% 0px;
+}
+.tzList>div>*{
+    float: left;
+    margin: 0 2%;
+}
+.tzList .lable{
+    background: #b4cae3;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 10px;
+    float: right;
+}
+.tzList .date{
+    font-size: 11px;
+    color: #999;
+}
+.tzList .bottom{
+    font-size: 12px;
+    color: #666;
+}
+.tzList .bottom .right{
+    float: right;
+}
+.tzList .bottom>span>span{
+    color: #0288d1;
+}
+.xz{
+    position: fixed;
+    height: calc(100% - 136.8px);
+}
+.xz .left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    background: whitesmoke;
+}
+.xz .left>.current{
+    background: white;
+}
+.xz .left>li{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.xz .right{
+    width: 70%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+}
+.xz .right>li{
+    height: 58px;
+    margin: 5px 5%;
+}
+.xz .right img{
+    width: 35%;
+}
+.xz .right li>div{
+    width: 65%;
+    float: right;
+}
+.xz .right li>div>h4{
+    margin: 10px;
+}
+.xz .right li>div>div{
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+}

@@ -1,0 +1,272 @@
+.details{
+    position: fixed;
+    top: 45.6px;
+    bottom: 45.6px;
+    overflow: auto;
+}
+.details a{
+    color: #0e90d2;
+}
+.details>ul,.details>div{
+    overflow: hidden;
+    border-bottom: 20px solid #EFEFEF;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+.details>div{
+    padding: 0px 5% 0px;
+}
+.syn{
+    padding: 0px 5% 0px;
+}
+.details>.tab>li{
+    padding: 0px 5% 0px;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.details>div{
+    height: 64px;
+    line-height: 44px;
+}
+.distab{
+    margin-left: 20px;
+}
+.sk-icon-tbicon-test1{
+    float: right;
+    font-size: 25px;
+    color: #CCC;
+}
+.introduce img{
+    margin-top: 8px;
+    width: 100%;
+}
+.introduce h3{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.poppage{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.poppage .header{
+    height: 30px;
+    line-height: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #CCC;
+    margin-top: 0px;
+}
+.poppage>ul{
+    height: 120vh;
+    margin-top: 45.6px;
+    background: white;
+    overflow: auto;
+}
+.paperspage>ul>li>div{
+    width: 345px;
+    height: 75px;
+    margin: 10px auto;
+    background: url('../img/details/paperpage.png');
+    background-size: 100% 100%;
+}
+.sk-icon-tbicon_closed{
+    float: right;
+}
+.paperspage .left{
+    float: left;
+    width: 25%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bolder;
+}
+.left .unit{
+    font-size: 12px;
+
+}
+.left .decrease{
+    font-size: 29px;
+
+}
+.paperspage .center{
+    float: left;
+    width: 40%;
+    height: 75px;
+    text-align: left;
+    margin-top: 10px;
+}
+.paperspage .tiltle{
+    font-size: 13px;
+}
+.paperspage .closingDate{
+    font-size: 10px;
+    color: #8b572a;
+}
+.paperspage .right{
+    float: right;
+    width: 23%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+.editionspage .selts{
+    margin: 10px auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 8px;
+    width: 90%;
+    border-radius: 5px;
+    font-weight: bolder;
+    background: #f5f5f5;
+}
+
+.editionspage .selted{
+    background: #ffeed8;
+    border: 1px solid #ff5722;
+    
+}
+.editionspage .price{
+    float: right;
+    color: #ff5722;
+}
+.editionspage .buy{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background: #999;
+    color: white;
+}
+.editionspage .hadselt{
+    background: #ff5722;
+}
+.salepage>ul>li{
+    margin-top: 10px;
+    overflow: hidden;
+    font-size: 15px;
+}
+.salepage .issueDate{
+    height: 50px;
+    line-height: 50px;
+}
+.salepage .tiltle{
+    margin-left: 15px;
+    width: 20%;
+    float: left;
+    color:#666;
+}
+.salepage .labelbox{
+    width: 70%;
+    float: left;
+}
+.salepage .labels{
+    padding: 7px 20px;
+    margin:0px 10px 10px 0px;
+    float: left;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+.configurepage .mint-navbar .mint-tab-item.is-selected{
+    margin-bottom: 0px;
+    color: #ff5722;
+    border-bottom: 3px solid #ff5722;
+}
+.configurepage .configures{
+    font-size: 15px;
+    display: inline-block;
+    padding: 7px 10px;
+    line-height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #666;
+    background-color: #f5f5f5;
+    border: solid 1px #f5f5f5;
+}
+.configurepage .configures.current{
+    color: #ff5722;
+    background-color: #ffede8;
+    border: solid 1px #ff5722;
+}
+.configurepage .tiltle{
+    margin-left: 5%;
+    width: 30%;
+    float: left;
+}
+.configTable{
+    width: 90%;
+    margin: 5%;
+    color: #393C3E;
+    font-size: 14px;
+}
+.configTable tr td{
+    line-height: 35px;
+    box-sizing: border-box;
+    border:1px solid rgb(229, 229, 229);
+}
+.configTable tr td.column {
+    width: 30%;
+    text-align: center;
+}
+/* .configTable>tr:nth-child(even){
+    background: rgb(229, 229, 229);
+} */
+.configTable>tr:nth-child(even)>td,.configTable>tr:nth-child(even)>td>.mint-cell{
+    background: rgb(238, 238, 238);
+    background-image: none;
+}
+.configTable .mint-cell-wrapper{
+    background-image: none;
+}
+.configTable .mint-cell-text{
+    color: #393C3E;
+    font-size: 12px;
+}
+.ctrl{
+    margin-top: 20px;
+    overflow: auto;
+    height: 355px;
+}
+.bottombar{
+    position: fixed;
+    height: 45.6px;
+    bottom: 0px;
+    width: 100%;
+}
+.bottombar li{
+    width: 33.33%;
+    float: left;
+}
+.bottombar li>*{
+    height: 45.6px;
+    line-height: 45.6px;
+}
+.bottombar .w>*{
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    color: #000;
+    line-height: 22.8px;
+    text-align: center;
+}
+.bottombar .y{
+    background: #ff9800;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+.bottombar .s{
+    background: #ff5722;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+

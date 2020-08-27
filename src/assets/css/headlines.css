@@ -1,0 +1,52 @@
+.main{
+    width: 100%;
+    height: calc(100% - 91.2px);
+    position: fixed;
+    top: 45.6px;
+    overflow: auto;
+}
+.headlines .mint-swipe{
+    margin: 20px 0px;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.headlines .mint-swipe img{
+    width: 345px;
+    height: 115px;
+    border-radius: 8px;
+}
+.newsList{
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.headlines .tabbox{
+    margin: 20px 5%;
+    width: 90%;
+    font-size: 14px;
+    overflow: hidden;
+}
+.tabbox h1{
+    margin-bottom: 20px;
+}
+.tabbox .mainimg{
+    width: 100%;
+    border-radius: 8px;
+}
+.tabbox .avatar{
+    float: left;
+    border-radius: 50%;
+    width: 5%;
+}
+.tabbox .userName {
+    float: left;
+}
+.tabbox .data {
+    float: right;
+    width: 40%;
+    color: #999;
+}
+.tabbox .from{
+    float: right;
+    color: #0288d0;
+}

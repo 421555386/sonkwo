@@ -158,6 +158,8 @@
   color: #666;
   background: #EFEFEF;
   width: 21px;
+  overflow:hidden;
+  
 }
 /* 列表 */
 .gameslist>li>ul{
